@@ -1,0 +1,18 @@
+a[href]:link {
+    /* Styles for anchor elements containing a hyperlink */
+}
+
+a[href]:visited {
+    /* Styles for visited links */
+    font-style: italic;
+}
+
+a[href]:hover {
+    /* Styles for links on hover */
+    text-decoration: underline;
+}
+
+a[href]:active {
+    /* Styles for active links */
+    background-color: var(--color-light-grey);
+}
